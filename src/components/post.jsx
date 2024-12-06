@@ -3,17 +3,17 @@ import { useState } from 'react'
 
 
 const Post = () => {
-    const url = "https://jsonplaceholder.typicode.com/posts";
-  useEffect(() => {
-    axios
-      .get(url)
-      .then((responses) => {
-        setPostData(responses.data);
-      })
-      .catch((err) => {
-        console.log(err.message);
-      });
-  }, []);
+  //   const url = "https://jsonplaceholder.typicode.com/posts";
+  // useEffect(() => {
+  //   axios
+  //     .get(url)
+  //     .then((responses) => {
+  //       setPostData(responses.data);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err.message);
+  //     });
+  // }, []);
   return (
     <div>
         <div className="userData border rounded-md p-4 shadow-md">
