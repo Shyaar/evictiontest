@@ -17,9 +17,9 @@ const Post = () => {
   return (
     <div>
         <div className="userData border rounded-md p-4 shadow-md">
-            <h3>Post</h3>
+            <h3></h3>
             <hr />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolorum nihil possimus quisquam optio, deserunt minima nisi sit autem laboriosam in neque omnis! Sequi ullam reiciendis commodi officiis porro repellat at aliquam saepe deserunt illum? Repudiandae culpa voluptatem id nam voluptas et, iure quis. Rem repellat consectetur nobis corporis dolore?</p>
+            <p>{postMessage}</p>
             <hr />
             <div className='flex'>
                 <button className='m-4'>bookmark</button>
